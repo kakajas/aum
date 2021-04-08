@@ -98,6 +98,7 @@ function reset(){
     p_gpa.remove();
     clearTable();
     btnAddEntry.disabled = false;
+    btnGpa.disabled = true;
 }
 
 function clearTable(){
