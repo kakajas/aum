@@ -1,0 +1,47 @@
+#input-div, #show-gpa-div, #avg-gpa-div{
+    margin-left: 5%;
+    width: 100%;
+}
+#credit-hours{
+    width: 25%;
+    font-size: 150%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+#letter-grade{
+    width: 11%;
+    font-size: 150%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+.btn{
+    width: 13%;
+    margin-right: 1%;
+    font-size: 100%;
+    padding: 1%;
+    border-radius: 10px;
+}
+#btn-add-entry{
+    background-color: blue;
+}
+#btn-gpa{
+    background-color: greenyellow;
+}
+#btn-reset{
+    background-color: red;
+}
+#gpa-table{
+    margin-top: 3%;
+    width: 42%;
+}
+#gpa-table th{
+    background-color: black;
+    color: aqua;
+    width: 50%;
+}
+#gpa-show{
+    font-size: 200%;
+    color: brown;
+}

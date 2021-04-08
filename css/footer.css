@@ -1,0 +1,24 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+    margin-top: 5%;
+}
+#footer div{
+    width: 50%;
+    font-size: 100%;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+#copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}

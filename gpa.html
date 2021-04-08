@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gpa.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>AUM</title>
+</head>
+<body>
+    <div id="page">
+        <div id="header"></div>
+        <div id="main">
+            <h2>Calculate GPA</h2>
+            <div id="input-div">
+                <input type="number" id="credit-hours" placeholder="Credit Hours">
+                <select id="letter-grade">
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select>
+                <br>
+                <button onclick="addEntry()" id="btn-add-entry" class="btn">ADD ENTRY</button>
+                <button onclick="avgGpa()" id="btn-gpa" class="btn">GPA</button>
+                <button onclick="reset()" id="btn-reset" class="btn">RESET</button>
+            </div>
+            <div id="show-gpa-div"></div>
+            <div id="avg-gpa-div"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/gpa.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/teach.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>AUM</title>
+</head>
+<body>
+    <div id="page">
+        <div id="header"></div>
+        <div id="main">
+            <div id="intro-div">
+                <h2>Teaching Assitant Application.</h2>
+                <p>Do you wish to help as a teaching assistant, make your application here.</p>
+            </div>
+            <div id="form">
+                <table id="teach-table">
+                    <form action="#" method="post">
+                        <tr>
+                            <td><label for="name">FULL NAME</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data" id="name"><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="id">ID</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data"><input type="text" name="id" id="id"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">GENDER</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data">
+                                <select name="gender" id="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="gpa">GPA</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data"><input type="number" name="gpa" id="gpa"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="date">SUBMISSION DATE</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data"><input type="date" name="date" id="date"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="comment">COMMENT</label></td>
+                        </tr>
+                        <tr>
+                            <td class="data"><textarea name="comment" id="commet" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="submit" id="submit"></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script src="js/script.js"></script>      
+</body>
+</html>

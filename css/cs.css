@@ -1,0 +1,47 @@
+#main div{
+    margin-bottom: 5%;
+}
+#main div p{
+    font-size: 150%;
+}
+h2{
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    font-size: 200%;
+    color: blueviolet;
+    margin-top: 7%;
+}
+.p2{
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 0%;
+    font-size: 150%;
+}
+.p1{
+    width: 48%;
+    float: right;
+    margin-top: 0%;
+    font-size: 150%;
+}
+#job-div{
+    width: 100%;
+    margin-top: 20%;
+}
+#job-table{
+    margin-left: 10%;
+    width: 80%;
+}
+#job-table tr td, th{
+    text-align: center;
+    font-size: 150%;
+}
+#points-of-pride ul li{
+    font-size: 150%;
+}
+#for-more-info dl dd,dt{
+    font-size: 150%;
+}

@@ -1,0 +1,42 @@
+#page{
+    width: 100%;
+}
+#page h3{
+    font-size: 200%;
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+#page{
+    font-size: 120%;
+}
+#info p{
+    font-size: 150%;
+}
+#history{
+    list-style-type: square;
+    font-size: 100%;
+}
+#history li{
+    margin-bottom: 10px;
+}
+#description-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#image-div{
+    width: 40%;
+    margin-top: 1%;
+}
+#image-div img{
+    height: 100%;
+}
+#quick-facts{
+    width: 60%;
+}
+ul{
+    list-style-type: circle;
+}
